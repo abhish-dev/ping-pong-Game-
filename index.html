@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game by Abhish Singh </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div class="panel reveal">
+        <div class="stat">Score: 0</div>
+        <h1>Ping Pong Game By Abhish</h1>
+        <span>Modes: 
+            <div class="tooltip">A mode sharpens the head of the computer. It doesn't speed up the game!</div>
+        </span>
+        <input type="text" hidden>
+        <ul class="gameMode">
+            <li class="mode baby" data-number=".05">Baby</li>
+            <li class="mode easy" data-number=".08">Easy</li>
+            <li class="mode normal" data-number=".1">Normal</li>
+            <li class="mode hard" data-number=".2">Hard</li>
+            <li class="mode insane" data-number=".3">Insane</li>
+        </ul>
+        <button class="play">Play</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
